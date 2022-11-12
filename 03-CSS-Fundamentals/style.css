@@ -88,9 +88,37 @@ li:last-child {
 }
 
 li:nth-child(even) {
-  background-color: skyblue;
+  color: skyblue;
 }
 
+/* this won't work because p is not the first child */
+article p:first-child {
+  background-color: greenyellow;
+}
+
+/* this will work though! */
 article p:last-child {
-  background-color: salmon;
+  color: red;
+}
+
+/* STYLING LINKS */
+/* this will only style a that has an actual link */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline wavy orangered 5px;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
