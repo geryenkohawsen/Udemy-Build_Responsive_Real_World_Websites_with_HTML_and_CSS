@@ -17,6 +17,7 @@ body {
 	padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 /* INHERITANCE */
@@ -37,6 +38,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -156,6 +158,11 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 /* RESOLVING CONFLICTS */
