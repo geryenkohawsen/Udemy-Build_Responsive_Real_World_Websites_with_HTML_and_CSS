@@ -4,9 +4,11 @@
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
+  position: relative;
   border-top: 10px solid #1098ad;
 }
 
@@ -48,6 +50,7 @@ aside {
   width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -170,6 +173,15 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
 
 /* RESOLVING CONFLICTS */
