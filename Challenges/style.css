@@ -90,26 +90,25 @@ a.more-info:active {
   color: #000000;
 }
 
-.sale-tag {
-  position: absolute;
-  left: 0;
-  letter-spacing: 2px;
-  background-color: red;
-  color: #fff;
+.sale {
+  background-color: #ec2f2f;
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
   font-weight: bold;
+  padding: 7px 15px;
   display: inline-block;
-  width: 80px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  left: -40px;
-  top: -18px;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  /* width: 40px;
+	text-align: center; */
 }
 
-.box {
+.color {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   margin-right: 10px;
 }
 
