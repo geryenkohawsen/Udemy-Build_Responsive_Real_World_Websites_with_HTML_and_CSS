@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,6 +28,7 @@ h2.product-title {
 /* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
+  float: left;
 }
 
 .shipping {
@@ -35,6 +37,11 @@ h2.product-title {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
+  float: right;
+}
+
+.description {
+  clear: both;
 }
 
 .more-info__container {
@@ -61,7 +68,6 @@ a.more-info:active {
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  margin-top: 30px;
 }
 
 .details-list {
@@ -134,4 +140,21 @@ a.more-info:active {
 
 .brown {
   background-color: brown;
+}
+
+.image {
+  float: left;
+  width: 33%;
+}
+
+.price-shipping {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+
+.product-details {
+  float: left;
+  width: 33%;
+  padding: 20px;
 }
