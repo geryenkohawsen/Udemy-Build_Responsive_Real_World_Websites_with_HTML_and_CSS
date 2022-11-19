@@ -17,11 +17,13 @@ body {
 
 .container {
   /* background-color: red; */
+  display: flex;
+  gap: 40px;
 }
 
 .product-img {
-  float: left;
-  margin-right: 40px;
+  /* float: left;
+	margin-right: 40px; */
 }
 
 /* PRODUCT */
@@ -42,11 +44,14 @@ h2.product-title {
 
 /* PRODUCT INFORMATION */
 .product-info {
-  /* (825 - 8 - 250 - 80) / 2 */
+  /* 
+  (825 - 8 - 250 - 80) / 2
   width: 243px;
-  float: left;
-  margin-right: 40px;
-  padding-top: 20px;
+	float: left;
+	margin-right: 40px;
+	padding-top: 20px; 
+  */
+  flex: 1;
 }
 
 .price {
@@ -90,9 +95,10 @@ a.more-info:active {
 
 /* PRODUCT DETAILS */
 .product-details {
-  width: 243px;
-  float: left;
-  margin-top: 20px;
+  /* width: 243px;
+	float: left;
+	margin-top: 20px; */
+  flex: 1;
 }
 
 .details-title {
