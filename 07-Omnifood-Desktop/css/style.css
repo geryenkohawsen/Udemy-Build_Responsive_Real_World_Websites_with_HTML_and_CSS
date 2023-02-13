@@ -16,6 +16,7 @@
      #e67e22
 - Tints:
     #fdf2e9
+    #cf711f
 - Shades:
 - Accents:
 - Greys:
@@ -46,7 +47,7 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: 'Rubik', sans-serif;
 	line-height: 1;
 	font-weight: 400;
 	color: #555;
@@ -68,7 +69,7 @@ body {
 
 .heading-primary {
 	font-size: 5.2rem;
-	font-weight: 700;
+	font-weight: 600;
 	line-height: 1.05;
 	color: #333;
 	letter-spacing: -0.5px;
@@ -123,6 +124,39 @@ body {
 
 .hero-img {
 	width: 100%;
+}
+
+.delivered-meals {
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+	margin-top: 8rem;
+}
+
+.delivered-imgs {
+	display: flex;
+}
+
+.delivered-imgs img {
+	height: 4.8rem;
+	width: 4.8rem;
+	border-radius: 50%;
+	margin-right: -1.6rem;
+	border: 3px solid #fdf2e9;
+}
+
+.delivered-imgs img:last-child {
+	margin: 0;
+}
+
+.delivered-text {
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+
+.delivered-text span {
+	color: #cf711f;
+	font-weight: 700;
 }
 
 /* HELPER CLASS */
