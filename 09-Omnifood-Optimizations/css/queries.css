@@ -290,7 +290,7 @@ Instead, 1rem = 1em = 16px */
 }
 
 /******************************/
-/* Fixing Safari flexbox gap for Safari 13 and below */
+/* Fixing Safari flexbox gap for Safari 13 and below2 */
 /******************************/
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
 	margin-right: 4.8rem;
