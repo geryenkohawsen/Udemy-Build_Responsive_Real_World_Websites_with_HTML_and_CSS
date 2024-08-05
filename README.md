@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://skillicons.dev">
-    <img width=200  src="https://skillicons.dev/icons?i=html,css" />
+    <img height=100 src="https://skillicons.dev/icons?i=html,css" />
   </a>
 </p>
 <h3 align="center">Build Responsive Real-World Websites with HTML and CSS</h3>
